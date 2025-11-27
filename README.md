@@ -9,17 +9,23 @@ Pearson and Spearman correlations between high-level themes and TechTrust scores
 Multiple-testing corrected significance (Bonferroni, Holm, BH/FDR)
 Visualizations: lollipop charts, scatter plots, and correlation heatmaps
 
+# PhD TechTrust Analysis
 
-Folder Structure
-phd-techtrust-analysis/
-│
-├─ data/raw/           # Original Excel datasets
-├─ notebooks/          # Jupyter notebooks for analysis
-├─ results/            # Generated figures, tables, and output files
-├─ docs/               # Methodology notes, supplementary materials
-├─ .gitignore          # Files/folders ignored by Git
-└─ README.md           # This file
+This repository contains tools and notebooks for computing Technology Trust scores and performing related analyses.
 
+It includes a Python package `techtrust_core` for:
+
+- Computing sentiment from participant quotes  
+- Calculating weighted Technology Trust scores  
+- Generating basic visualizations  
+
+## Quick Start
+
+1. Clone this repository:
+```bash
+git clone https://github.com/ucdvbreene/phd-techtrust-analysis.git
+
+from techtrust_core import compute_sentiment, compute_technology_trust
 
 Requirements
 Python 3.x with the following libraries:
