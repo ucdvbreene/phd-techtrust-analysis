@@ -12,20 +12,17 @@ Visualizations: lollipop charts, scatter plots, and correlation heatmaps
 
 # PhD TechTrust Analysis
 
-
 It includes a Python package `techtrust_core` for:
-
 - Computing sentiment from participant quotes  
 - Calculating weighted Technology Trust scores  
 - Generating basic visualizations  
 
 It includes a Python package `techtrust_stats` for:
-
 - Normal Distribtuion Checks  
-- Pearson and Spearman Correlation and P_Values
-- Multiple Comparision Controls
+- Pearson and Spearman Correlation and P_Values  
+- Multiple Comparision Control
 
-- 
+
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/ucdvbreene/phd-techtrust-analysis.git
